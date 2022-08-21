@@ -1,4 +1,13 @@
 
+#!/bin/bash
+#Script Variables
+HOST='174.138.190.54';
+USER='ksatunne_bestvpn';
+PASS='be@@33stvpn';
+DBNAME='ksatunne_bestvpn';
+PORT_TCP='1194';
+PORT_UDP='53';
+
 cp /usr/share/zoneinfo/Asia/Riyadh /etc/localtime
 
 install_require()
